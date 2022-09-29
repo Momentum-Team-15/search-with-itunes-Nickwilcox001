@@ -4,9 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css"
+    />
   <title>Music Search</title>
 </head>
+<header>
+  <h1>Nicks Records</h1>
+</header>
 <body>
+  <div class = "form">
     <form 
     action="" 
     method = "POST"
@@ -14,15 +23,16 @@
     id = "searchForm"
     >
     <div>
-      <label for="searchWord"></label>
+      <label for="search-word"></label>
       <input 
       type="text"
-      name = "searchWord"
-      id="searchword"
+      name = "search-word"
+      id="search-word"
       placeholder="Search for artist"
       >
       <button type="submit" class="button is-success">Search</button>
     </div>
+  </div>
 
 
 

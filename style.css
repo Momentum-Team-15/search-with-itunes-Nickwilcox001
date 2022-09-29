@@ -1,0 +1,67 @@
+#musicContainer
+{
+    
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+.songs
+{
+    width: 250px;
+    padding: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.song
+{
+    width: 100%;
+    font-size: small;
+    color: grey;
+    text-align: center;
+    border: 1px solid black;
+
+
+}
+.artist
+{
+    text-align: center;
+    font-size: medium;
+    color: black; 
+}
+.thumbnail
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+input[type=text]
+{
+    width: 70%;
+    padding: 10px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    font-style: bold;
+    font-size: 50px;
+    color: black;
+}
+.button
+{
+    background-color: black;
+    width: 10%;
+    padding: 10px 10px;
+    margin: 8px;
+
+}
+.form
+{
+    align-content: center;
+    text-align: center;
+}
